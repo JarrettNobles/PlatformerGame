@@ -78,7 +78,7 @@ public class GamePanel extends JPanel
 	//import images
 	private void importImg() 
 	{
-		InputStream is = getClass().getResourceAsStream("/player_sprites.png");
+		InputStream is = getClass().getResourceAsStream("../../res/player_sprites.png");
 		//try catch if the program cant find image
 		try 
 		{
